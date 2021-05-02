@@ -1,6 +1,13 @@
 # Quasar App (app)
 
-## Docker compose
+## Docker build & run
+```bash
+cd quasar-v2-docker
+docker build -t quasar-v2-docker
+docker run -it -p 8000:80 --rm dockerize-quasar
+```
+
+## docker-compose
 ```bash
 cd quasar-v2-docker
 docker-compose up --build
