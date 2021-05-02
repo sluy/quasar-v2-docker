@@ -1,5 +1,11 @@
 # Quasar App (app)
 
+## Docker compose
+```bash
+cd quasar-v2-docker
+docker-compose up --build
+```
+
 A Quasar Framework app
 
 ## Install the dependencies
